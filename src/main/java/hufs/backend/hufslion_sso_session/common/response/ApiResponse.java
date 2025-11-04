@@ -17,7 +17,7 @@ public class ApiResponse<T> {
     private final String message;
     private T data;
 
-    /***
+    /*******
      * 성공 응답 시 데이터와 함께 HTTP 상태 코드와 메시지를 포함한 ResponseEntity 생성
      *
      * @param status 성공 응답 코드 SuccessStatus enum
